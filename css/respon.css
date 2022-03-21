@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/*tamanho de tablet*/
+@media screen and (max-width: 768px){
+    .div_left{
+        float: left;
+        background-color: orange;
+        height: 10%;
+        width: 49%
+    }
+    .div_center{
+        float: right;
+        background-color: red;
+        height: 10%;
+        width: 49%;
+    }
+    .div_right{
+        position: relative;
+        top: 12%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: yellow;
+        height: 10%;
+        width: 50%;
+    }
+    .div_right .imgm {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .div_left{
+        position: absolute;
+        top: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: orange;
+        height: 10%;
+        width: 100%
+    }
+    .div_center{
+        position: absolute;
+        top: 12%;
+        margin-left: auto;
+        margin-left: auto;
+        background-color: red;
+        height: 10%;
+        width: 100%;
+    }
+    .div_right{
+        position: absolute;
+        top: 24%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: yellow;
+        height: 10%;
+        width: 100%;
+    }
+}
